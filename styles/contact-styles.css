@@ -1,0 +1,104 @@
+
+.main-container {
+    align-self: center;
+    border: 2px solid red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+body form input{
+    position: relative;
+    margin: 0 150 20px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+    width: 84%;
+    border: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+body form textarea{
+    position: relative;
+    height: 175px;
+    width: 84%;
+    padding: 10px;
+    overflow: auto;
+    resize: none;
+    margin: 0 150 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+header {
+    position: relative;
+    height: 150px;
+    background-color: firebrick;
+}
+
+main {
+    position: relative;
+    /* height: 100%; */
+    flex: 1;
+    background-color: lightcoral;
+    
+}
+
+main section {
+    /* height: 1800px; */
+}
+
+footer {
+    height: 180px;
+    background-color: firebrick;
+}
+
+p {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-align: center;   
+}
+
+a:link {
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+}
+
+li {
+    color: black;
+}
+
+header nav ul {
+    position: relative;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    text-indent: 35px;
+    font-weight:bolder;
+}
+
+
+
+@media (max-width: 576px) {
+    header nav {
+        display:block;
+        
+    }
+}
